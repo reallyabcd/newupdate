@@ -153,17 +153,20 @@
 
 # Set to false to disable the deprecation warning for the file uploader encoding.
 # Default: true
-showfileUploaderEncoding = false
+showfileUploaderEncoding =true
 
 # Set to false to disable the deprecation warning for using the global pyplot instance.
 # Default: true
-showPyplotGlobalUse = false
+showPyplotGlobalUse = true
+toolbarMode = “auto”
+
+
 
 
 [theme]
 
 # The preset Streamlit theme that your custom theme inherits from. One of "light" or "dark".
-base = "dark"
+base = "light"
 
 # Primary accent color for interactive elements.
 #primaryColor = "#0086b3"
