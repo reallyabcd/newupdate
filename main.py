@@ -132,11 +132,8 @@ def main():
     Duration = st.slider("Duration (days)",min_value=1,max_value=40)
     Duration = int(Duration)
     
-    Budget = st.text_input("Budget (INR)")
-if Budget.isdigit():
+   Budget = st.slider("Budget (INR)",min_value=200,max_value=150000,step=500)
     Budget = int(Budget)
-else:
-    st.write("Please enter a valid integer.")
 
     
 
