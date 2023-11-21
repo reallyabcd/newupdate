@@ -131,7 +131,7 @@ def main():
     Duration = st.slider("Duration (days)",min_value=1,max_value=40)
     Duration = int(Duration)
     
-    Budget = st.slider("Budget (INR)",min_value=200,max_value=150000,step=500)
+    Budget = st.text_input("Budget (INR)")
     Budget = int(Budget)
 
     col1, col2 = st.columns(2)
