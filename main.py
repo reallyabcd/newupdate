@@ -133,7 +133,7 @@ def main():
     Duration = int(Duration)
     
    Budget = st.slider("Budget (INR)",min_value=200,max_value=150000,step=500)
-    Budget = int(Budget)
+   Budget = int(Budget)
 
     
 
