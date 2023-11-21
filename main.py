@@ -64,10 +64,10 @@ from streamlit_folium import folium_static
 
 
 #importlib.import_module('FINAL')
-st.title('RAJA BALWANT SINGH MANAGEMENT & TECHNICAL CAMPUS | MCA Ist 2023 ENTRY PROJECT.')
+st.header('RAJA BALWANT SINGH MANAGEMENT & TECHNICAL CAMPUS | MCA Ist 2023 ENTRY PROJECT.')
 st.image('./data/Cover-Img.png')
 
-st.h1('असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ॥')
+st.title('असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ॥')
 st.title('Lead me from the unreal to the real, from darkness to light, and from death to immortality.')
 
 st.title('Travel Itinerary System')
