@@ -133,7 +133,12 @@ def main():
     Duration = int(Duration)
     
     Budget = st.text_input("Budget (INR)")
+if Budget.isdigit():
     Budget = int(Budget)
+else:
+    st.write("Please enter a valid integer.")
+
+    
 
     col1, col2 = st.columns(2)
     
