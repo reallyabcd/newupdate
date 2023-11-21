@@ -124,6 +124,9 @@ def main():
     def get_data():
       return []
 
+
+
+
     lis1 = ['Adventure and Outdoors','Spiritual','City Life', 'Cultural','Relaxing']
     lis2 = ['Family','Friends','Individual']
 
@@ -132,10 +135,8 @@ def main():
     Duration = st.slider("Duration (days)",min_value=1,max_value=40)
     Duration = int(Duration)
     
-   Budget = st.slider("Budget (INR)",min_value=200,max_value=150000,step=500)
-   Budget = int(Budget)
-
-    
+    Budget = st.slider("Budget (INR)",min_value=200,max_value=150000,step=500)
+    Budget = int(Budget)
 
     col1, col2 = st.columns(2)
     
@@ -144,6 +145,9 @@ def main():
 
     ## Condition-Error
     cutoff = Budget/Duration
+
+
+    
 
     result=""
     st.write(' ')
